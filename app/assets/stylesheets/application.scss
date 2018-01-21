@@ -1,6 +1,5 @@
 // Graphical variables
-@import "config/fonts";
-@import "config/colors";
+@import "config/variables";
 @import "config/bootstrap_variables";
 
 // External libraries
@@ -8,8 +7,20 @@
 @import "bootstrap";
 @import "font-awesome-sprockets";
 @import "font-awesome";
+@import "bootstrap-datepicker";
 
-// Your CSS partials
-@import "layouts/index";
+// Your CSS
+@import "layout/index";
 @import "components/index";
 @import "pages/index";
+@import "vendor/index";
+@import "components/cards";
+@import "components/banner-dashboard";
+@import "components/dashboard-card";
+@import "components/table";
+@import "components/booking-show";
+@import "components/dashboard-booking";
+@import "layout/footer";
+body {
+  background: #F5F8FA;
+}
